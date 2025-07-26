@@ -1,4 +1,4 @@
-class Solution {
+class Solution { //maximizeSubArraysAfterRemovingOneConflictingPair
 public:
     long long maxSubarrays(int n, vector<vector<int>>& conflictingPairs) {
         vector<vector<int>> conflicts(n + 1);

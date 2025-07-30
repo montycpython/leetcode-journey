@@ -1,3 +1,16 @@
-*.c linguist-language=C
-*.h linguist-language=C
+# Force specific languages
+*.py linguist-language=Python
+*.java linguist-language=Java
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.rs linguist-language=Rust
 *.cs linguist-language=C#
+*.c linguist-language=C
+*.cpp linguist-language=C++
+
+# Optional: ignore auto-generated or vendor code
+bin/* linguist-vendored
+obj/* linguist-vendored
+vendor/* linguist-vendored
+*.min.js linguist-generated
+
